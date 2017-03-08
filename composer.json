@@ -1,0 +1,24 @@
+{
+    "name": "restgrip/sodium",
+    "description": "Restgrip extra module based on PECL Sodium for Argon2i password hashing.",
+    "homepage": "https://github.com/restgrip/sodium",
+    "authors": [
+        {
+            "name": "Sarjono Mukti Aji",
+            "email": "me@simukti.net",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "ext-libsodium": "*",
+        "restgrip/restgrip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Restgrip\\": "src/Restgrip"
+        }
+    }
+}
